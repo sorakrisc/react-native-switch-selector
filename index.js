@@ -189,6 +189,7 @@ export default class SwitchSelector extends Component {
               },
               isSelected ? selectedTextStyle : textStyle,
             ]}
+            allowFontScaling={false}
           >
             {element.label}
           </Text>
